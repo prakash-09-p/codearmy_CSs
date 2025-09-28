@@ -1,0 +1,99 @@
+css full form (coscoding style sheet)
+sab se jada ham external use karte hai  becuse extrnal me ham multi pages link karke design de sakte hai ,fir inline after that internal 
+style css me ham sare colour change karsakte hai but 1 st hame style css file ku external file me link karna hai with use link tag 
+when u doing design or colour on perticular tag that is called element selecter
+when u want to design a perticular tag then there u should pass the reference like id=first,second...ete then in style css call that reference useing #first,second then make colour 
+when u want to design a perticular tag then there u should pass the reference like class=first,second...ete then in style css call that reference useing (dat(.)) like .first,second then make colour 
+at a time we can give both class and id reference and we can call as per required
+rgb=red,green,blue
+red=(0-255)
+green=(0-255)
+blue=(0-255)we can write how much we need to use as per required then made the colour
+its will consume 3 byt of memory 
+
+
+BOx model:
+//--------------
+we can give border on our content wise 
+1. content
+2. padding
+3. border
+4. margine
+
+
+
+inline vs block element
+inline element like :anchor tag ,span tag...
+Block element like:div,h1,h2,h3,p tag...
+
+
+span tag: when a paragraph u have and u want need to change samothing in  the paragraph on perticular line or word 
+use span tag the go to css and style it, this is called in line element .
+in inline block taken the back ground colour and border as per required not by row wise.
+block element always start with new line but inline alwas create own line requiredod space
+in block element we can applay height and width but inline didnt allow to applay height and width.
+ we can applay peding and margin in block element but inline element given the peding and
+ margin in horigental way but  he cant allow to do in vertical way.
+ we can transform block element to inline element useing "display : inline ;".
+  we can transform inline element to block element useing "display : block ;". 
+  when u do box sizeing its will take in inspect size divsion wise means it will inclode(content+peding+border)
+
+
+  
+  Cascading:-
+  when we try to cange inline style ya internal styleor css start its always be   
+inline css(property high)so it will be change , after inlinecss run next will run internalcss next external css(styel css)
+sometime for run internal css and external css following the order who is written the least he oly run .
+//in css when u call by class or by id that time he following how specific ur in the code so its will first id then class
+1.important this the 1st priority
+2.inline css(priority high)
+3.id(priority high)
+4.class(priority high)
+5.tag(h1,h2)
+6.ordering important hoga to applay the rules this is called Cascading.
+
+
+postion:
+postionare 5 types:
+1.static(by defult )
+2.relative(you can take place use right left botom or top)
+3.fixed(u can fix it after fix it will not scrolle ,ex heding part of application )
+4.sticky(when ur croser going top or bot u can set the limite in stick in how much space u add the sticky)
+5.absolute(jo v eska ancestor(subclass/parentclass)agar unka postion ku relative ya sticky fixed mark kiya hoga usme khud ku positioning karega)
+
+
+flexBox:(1 dimensional layout)
+Flexbox = A modern CSS layout system that makes designing responsive UI much easier.
+1.main axis
+2.cross axis
+container:we can use flex,flexdirection,justify,align,flexwrap
+child(flexitem):grow,shrink,basis,alignself.
+
+
+css grid:
+its helps to create 2 dimensional layout
+grid:marrix with rows and column
+
+
+responsive website:
+A responsive website means the design automatically adjusts to different screen sizes (desktop 💻, tablet 📱, mobile 📲).
+ In CSS, this is mainly achieved using flexbox, grid, percentages, and media queries.
+
+
+ Box-shadow:
+ The box-shadow property in CSS is used to add shadow effects around an element’s frame.
+It can create outer shadows (default) or inner shadows (inset).
+
+box-shadow: offset-x offset-y blur-radius spread-radius color inset;
+
+
+Animation:
+CSS animation makes elements move, fade, rotate, or transform without JavaScript.
+🔹 CSS Animation Basics
+
+There are two main ways to animate in CSS:
+
+Transitions → Simple animations when a property changes.
+
+Keyframes (animation) → More complex, continuous animations.
+

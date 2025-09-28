@@ -1,0 +1,54 @@
+/* span{
+    color: red;
+} */
+/* universal mark(*),it means in code how much tag is there it will silect in 1 time  */
+/* *{
+    margin: 0px;
+    padding: 0px;
+    
+} */
+
+/* the diference between inline and block element is inline element will not take full width of the page but block element will take full width of the page. */
+h1{
+    background-color: lightblue;
+    height: 200px;
+    width: 300px;
+    border: 10px solid black;
+    padding: 20px;
+    box-sizing: content-box;
+    /* //here override the margin and padding */
+    /* padding: 10px; */
+    /* height: 300px;
+    width: 200px;  */
+    /* display: block; */
+    /* display: inline;if we give display inline to block element it will behave like inline element */
+    /* display: inline; */
+    /* display: inline-block; */ 
+    
+}
+h2{
+    background-color: lightsalmon;
+    height: 200px;
+    width: 300px;
+    border: 10px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    /* display: inline; */
+    /* display: inline-block; */
+}
+span{
+    /* background-color: yellow; */
+    /* height: 200px;
+    width: 200px; this not take in inline block */
+    /* padding: 20px;
+    margin: 20px; */
+    /* margin-top: 50px;//here no changes bcz he will not take vertical space 
+    same with margin bottom:  and peding top bot also not take ;. */
+    /* margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 50px;
+    padding-right: 50px;//here it will take horizontal space */
+    /* display:block; */
+    background-color: pink;
+
+}

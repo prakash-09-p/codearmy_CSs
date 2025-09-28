@@ -1,0 +1,33 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+h2{
+    background-color: aqua;
+    position: relative;
+    left: 50px;
+    /* top: 20px;
+    bottom: 20px;
+    right: 50px; */
+}
+h3{
+    background-color: yellowgreen;
+    /* position:fixed;
+    top: 0px;
+    left: 50px; */
+}
+h4{
+    background-color: cornflowerblue;
+    position: sticky;
+    top: 0px;
+}
+p{
+    background-color: brown;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    margin: 0px;
+    z-index: 10;
+    /* bydefult  z-index: value 0 */
+}

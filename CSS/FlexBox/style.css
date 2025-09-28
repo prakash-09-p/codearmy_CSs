@@ -1,0 +1,36 @@
+.container{
+    background-color: aqua;
+    display: flex;
+    height: 600px;
+    flex-direction: row;
+    justify-content: center;
+    /* justify content : main axis ke around kam karta hai
+    main axis decide kun karega,appka flext ka direction */
+    align-items: center;
+     /* align items : cross axis ke around kam karta hai */
+     flex-wrap: wrap;
+     gap: 10px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    
+    /* margin: 5px; */
+}
+.first{
+    background-color: brown;
+    /* flex-grow: 2; *//* ye apne aap ko 2 part me divide kar lega */
+    flex-basis: 200px;
+}
+.second{
+    background-color: blueviolet;
+    flex-shrink: 4px;
+}
+.third{
+    background-color: chocolate;
+    align-self: flex-end;
+}
+.fourth{
+    background-color: chartreuse;
+    
+}
